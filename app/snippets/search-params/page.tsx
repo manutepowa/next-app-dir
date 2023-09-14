@@ -23,7 +23,7 @@ const options = [
 ];
 
 export const dynamic = 'force-dynamic';
-
+export const runtime = 'edge';
 export default async function Page({ searchParams }: { searchParams: any }) {
   return (
     <div className="prose prose-sm prose-invert max-w-none">

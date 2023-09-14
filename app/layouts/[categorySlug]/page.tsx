@@ -1,6 +1,6 @@
 import { getCategory } from '#/app/api/categories/getCategories';
 import { SkeletonCard } from '#/ui/skeleton-card';
-
+export const runtime = 'edge';
 export default async function Page({
   params,
 }: {
