@@ -1,7 +1,7 @@
 import { getCategory } from '#/app/api/categories/getCategories';
 import { Boundary } from '#/ui/boundary';
 import { Counter } from '../context-click-counter';
-
+export const runtime = 'edge';
 export default async function Page({
   params,
 }: {

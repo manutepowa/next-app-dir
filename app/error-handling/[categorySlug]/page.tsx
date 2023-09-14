@@ -1,8 +1,8 @@
 import { getCategory } from '#/app/api/categories/getCategories';
 import BuggyButton from '#/ui/buggy-button';
 import { SkeletonCard } from '#/ui/skeleton-card';
-import { notFound } from 'next/navigation';
 
+export const runtime = 'edge';
 export default async function Page({
   params,
 }: {

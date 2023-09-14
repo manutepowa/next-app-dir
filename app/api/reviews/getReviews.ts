@@ -6,7 +6,6 @@ import type { Review } from './review';
 // doesn't currently use sensitive environment variables, it's
 // good practise to add `server-only` preemptively.
 import 'server-only';
-export const runtime = 'edge';
 export async function getReviews() {
   const res = await fetch(`https://app-router-api.vercel.app/api/reviews`);
 
